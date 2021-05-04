@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const env = require('dotenv').config()
 var lastmsg;
 var lm;
 
@@ -6,7 +7,7 @@ var lm;
 
 const client = new Discord.Client();
 
-const prefix = '?';
+const prefix = process.env.PREFIX;
 
 const fs = require('fs');
 
@@ -62,5 +63,5 @@ client.on('message',message => {
 
 
 
-client.login('insert token here');
+client.login(process.env.DISCORD_TOKEN);
 
