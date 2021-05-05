@@ -16,7 +16,7 @@ Features include:
 * That is pretty much it
 
 ### Instructions
-1. Git clone the repo ``git clone https://github.com/MiracleSheep/Javascript_Discord_ServerAssistantBot.git``
+1. Git clone the repo ``git clone https://github.com/MiracleSheep/Javascript_Discord_PollBot.git``
 2. Create a discord application using the discord developer portal https://discord.com/developers/docs/
 3. Create a bot in the application, customize it to your liking, and grab the bot token
 4. Set up a .env file inside of the container with the following variables:
